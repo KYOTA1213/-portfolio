@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KYOTA WORKS — ウェブ制作</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ナビ -->
+  <header class="header" id="header">
+    <div class="inner">
+      <a href="#" class="logo">
+        <svg class="logo-mark" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="28" height="28" rx="7" fill="#2563eb"/>
+          <line x1="9" y1="8" x2="9" y2="20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="9" y1="14" x2="19" y2="8" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="9" y1="14" x2="19" y2="20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        KYOTA<em>.</em>
+      </a>
+      <nav class="gnav">
+        <a href="#services">サービス</a>
+        <a href="#flow">流れ</a>
+        <a href="#about">について</a>
+        <a href="#contact" class="gnav-btn">無料相談</a>
+      </nav>
+      <button class="burger" id="burger"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="sp-nav" id="spNav">
+    <button class="sp-nav-close" id="spNavClose">×</button>
+    <a href="#services">サービス</a>
+    <a href="#flow">ご依頼の流れ</a>
+    <a href="#about">について</a>
+    <a href="#contact">お問い合わせ</a>
+  </div>
+
+  <!-- ヒーロー -->
+  <section class="hero">
+    <div class="inner">
+      <div class="hero-text">
+        <p class="hero-label">ウェブ制作 · フリーランス</p>
+        <h1>集客できる<br>サイトを、<br><em>あなたに。</em></h1>
+        <p class="hero-desc">個人事業主・小規模事業者向けに、問い合わせが来るウェブサイトをスピーディーに制作します。ご相談・お見積もり完全無料。</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn-primary">無料で相談する →</a>
+          <a href="#services" class="btn-text">サービスを見る</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hc-item">
+          <strong>¥50,000〜</strong>
+          <span>LP制作</span>
+        </div>
+        <div class="hc-item">
+          <strong>最短3日〜</strong>
+          <span>納期</span>
+        </div>
+        <div class="hc-item">
+          <strong>無料</strong>
+          <span>ご相談・お見積もり</span>
+        </div>
+        <div class="hc-item">
+          <strong>24時間以内</strong>
+          <span>レスポンス</span>
+        </div>
+        <a href="#contact" class="hc-cta">今すぐ相談する →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- お悩み -->
+  <section class="sec" id="problem">
+    <div class="inner">
+      <div class="sec-hd">
+        <span class="tag">お悩み</span>
+        <h2>こんなお悩み、<br>ありませんか？</h2>
+      </div>
+      <ul class="prob-grid">
+        <li><span>01</span><p>ホームページが古い。でも自分では直せない</p></li>
+        <li><span>02</span><p>新サービスを告知するサイトがない</p></li>
+        <li><span>03</span><p>制作会社に頼んだら費用が高すぎた</p></li>
+        <li><span>04</span><p>SNSはやっているが問い合わせに繋がらない</p></li>
+        <li><span>05</span><p>納期・レスが遅い。スピーディーに動いてほしい</p></li>
+        <li><span>06</span><p>IT系はわからない。丁寧に対応してほしい</p></li>
+      </ul>
+      <div class="prob-ans">
+        それ全部、<strong>KYOTA WORKS</strong> が解決します。
+      </div>
+    </div>
+  </section>
+
+  <!-- 選ばれる理由 -->
+  <section class="sec sec-white" id="why">
+    <div class="inner">
+      <div class="sec-hd">
+        <span class="tag">選ばれる理由</span>
+        <h2>大手制作会社と<br>何が違うのか。</h2>
+      </div>
+      <div class="compare">
+        <div class="cmp-head">
+          <div></div>
+          <div class="cmp-other">大手制作会社</div>
+          <div class="cmp-kyota">KYOTA WORKS</div>
+        </div>
+        <div class="cmp-row">
+          <div class="cmp-label">LP制作の費用</div>
+          <div>¥200,000〜</div>
+          <div class="cmp-val">¥50,000〜</div>
+        </div>
+        <div class="cmp-row">
+          <div class="cmp-label">納期</div>
+          <div>1〜3ヶ月</div>
+          <div class="cmp-val">最短3日〜</div>
+        </div>
+        <div class="cmp-row">
+          <div class="cmp-label">レスポンス</div>
+          <div>数日〜1週間</div>
+          <div class="cmp-val">24時間以内</div>
+        </div>
+        <div class="cmp-row">
+          <div class="cmp-label">相談・見積もり</div>
+          <div>有料の場合あり</div>
+          <div class="cmp-val">完全無料</div>
+        </div>
+        <div class="cmp-row">
+          <div class="cmp-label">スマホ対応</div>
+          <div>別途費用の場合あり</div>
+          <div class="cmp-val">すべて込み</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- サービス -->
+  <section class="sec" id="services">
+    <div class="inner">
+      <div class="sec-hd">
+        <span class="tag">サービス</span>
+        <h2>制作メニュー</h2>
+      </div>
+      <div class="sv-cards">
+
+        <div class="sv-card sv-featured">
+          <div class="sv-top">
+            <span class="sv-badge">人気 No.1</span>
+            <span class="sv-no">01</span>
+          </div>
+          <h3>ランディングページ制作</h3>
+          <p>商品・サービスの魅力を1ページに凝縮。問い合わせ・購入・予約に繋げるLPを制作します。</p>
+          <ul>
+            <li>デザイン・コーディング込み</li>
+            <li>スマホ完全対応</li>
+            <li>公開後1ヶ月修正対応</li>
+            <li>納期 7〜14日</li>
+          </ul>
+          <div class="sv-price">¥50,000<small>〜</small></div>
+          <a href="#contact" class="btn-primary">相談する →</a>
+        </div>
+
+        <div class="sv-card">
+          <div class="sv-top">
+            <span class="sv-no">02</span>
+          </div>
+          <h3>コーポレートサイト制作</h3>
+          <p>会社・店舗の信頼感を高める、シンプルで見やすいウェブサイトを制作します。</p>
+          <ul>
+            <li>5ページ構成</li>
+            <li>スマホ完全対応</li>
+            <li>お問い合わせフォーム設置</li>
+            <li>納期 14〜21日</li>
+          </ul>
+          <div class="sv-price">¥80,000<small>〜</small></div>
+          <a href="#contact" class="btn-outline">相談する →</a>
+        </div>
+
+        <div class="sv-card">
+          <div class="sv-top">
+            <span class="sv-no">03</span>
+          </div>
+          <h3>ウェブアプリ開発</h3>
+          <p>業務効率化・サービス立ち上げのためのウェブアプリをLaravelで開発します。</p>
+          <ul>
+            <li>要件定義から対応</li>
+            <li>管理画面あり</li>
+            <li>サーバー設定込み</li>
+            <li>納期 要相談</li>
+          </ul>
+          <div class="sv-price">¥150,000<small>〜</small></div>
+          <a href="#contact" class="btn-outline">相談する →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 流れ -->
+  <section class="sec sec-white" id="flow">
+    <div class="inner">
+      <div class="sec-hd">
+        <span class="tag">ご依頼の流れ</span>
+        <h2>はじめてでも<br>安心です。</h2>
+      </div>
+      <div class="flow-steps">
+        <div class="flow-item">
+          <div class="flow-num">01</div>
+          <h4>無料相談</h4>
+          <p>フォームからご連絡ください。作りたいサイトのイメージ・ご予算・納期をお聞かせください。</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-item">
+          <div class="flow-num">02</div>
+          <h4>お見積もり</h4>
+          <p>ヒアリングの上、お見積もりを提示します。費用は一切かかりません。</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-item">
+          <div class="flow-num">03</div>
+          <h4>制作・確認</h4>
+          <p>ご契約後に制作開始。途中経過を随時共有し、修正しながら仕上げます。</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-item">
+          <div class="flow-num">04</div>
+          <h4>納品・公開</h4>
+          <p>最終確認後に公開。公開後1ヶ月間は無料で修正に対応します。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- について -->
+  <section class="sec" id="about">
+    <div class="inner about-wrap">
+      <div class="sec-hd">
+        <span class="tag">について</span>
+        <h2>中島 強太</h2>
+      </div>
+      <div class="about-body">
+        <p>個人事業主・小規模店舗の集客を、ウェブの力で支援するフリーランスです。</p>
+        <p>「IT系はよくわからない」という方でも安心して依頼できるよう、専門用語を使わずわかりやすく対応することを心がけています。</p>
+        <p>レスポンスは基本 <strong>24時間以内</strong>。スピードと誠実さで信頼に応えます。</p>
+        <div class="chips">
+          <span>24h以内返信</span><span>専門用語なし</span><span>修正1ヶ月無料</span>
+          <span>スマホ完全対応</span><span>丁寧な説明</span><span>リーズナブル</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- よくある質問 -->
+  <section class="sec sec-white" id="faq">
+    <div class="inner">
+      <div class="sec-hd">
+        <span class="tag">よくある質問</span>
+        <h2>ご不明な点は<br>こちらへ。</h2>
+      </div>
+      <dl class="faq">
+        <div class="faq-item">
+          <dt><button class="faq-q">相談・見積もりは本当に無料ですか？<span>+</span></button></dt>
+          <dd class="faq-a">はい、完全無料です。ご契約にならなくても費用は一切かかりません。</dd>
+        </div>
+        <div class="faq-item">
+          <dt><button class="faq-q">素材（写真・テキスト）は自分で用意する必要がありますか？<span>+</span></button></dt>
+          <dd class="faq-a">基本的にはご用意いただきますが、フリー素材の選定や文章の整理もお手伝いできます。</dd>
+        </div>
+        <div class="faq-item">
+          <dt><button class="faq-q">公開後に自分でサイトを更新できますか？<span>+</span></button></dt>
+          <dd class="faq-a">ご要望に応じてWordPressでの制作も対応可能です。ご相談ください。</dd>
+        </div>
+        <div class="faq-item">
+          <dt><button class="faq-q">支払い方法は？<span>+</span></button></dt>
+          <dd class="faq-a">銀行振込に対応しています。着手前50%・納品後50%の分割払いも可能です。</dd>
+        </div>
+        <div class="faq-item">
+          <dt><button class="faq-q">急ぎの依頼にも対応できますか？<span>+</span></button></dt>
+          <dd class="faq-a">内容によりますが、最短3日での対応が可能です。まずはご相談ください。</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- お問い合わせ -->
+  <section class="sec sec-navy" id="contact">
+    <div class="inner">
+      <div class="sec-hd">
+        <span class="tag light">お問い合わせ</span>
+        <h2 class="light">まず、話してみませんか。</h2>
+        <p class="sec-sub">ご相談・お見積もりは無料です。「こんなこと頼めるの？」という内容でも歓迎します。</p>
+      </div>
+      <form class="form" action="https://formspree.io/f/REPLACE_THIS" method="POST">
+        <div class="form-row">
+          <div class="fg">
+            <label>お名前 <b>必須</b></label>
+            <input type="text" name="name" placeholder="山田 太郎" required>
+          </div>
+          <div class="fg">
+            <label>メールアドレス <b>必須</b></label>
+            <input type="email" name="email" placeholder="example@email.com" required>
+          </div>
+        </div>
+        <div class="fg">
+          <label>ご依頼の種類</label>
+          <select name="type">
+            <option value="">選択してください</option>
+            <option>ランディングページ制作</option>
+            <option>コーポレートサイト制作</option>
+            <option>ウェブアプリ開発</option>
+            <option>その他・ご相談</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>ご相談内容 <b>必須</b></label>
+          <textarea name="message" rows="5" placeholder="作りたいサイトのイメージ、ご予算、納期など、思ったことをそのままお書きください。" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">送信する →</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="inner footer-in">
+      <span class="footer-logo">KYOTA<em>.</em></span>
+      <span class="footer-copy">© 2026 KYOTA WORKS</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
